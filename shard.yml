@@ -1,6 +1,7 @@
 name: ecdsa
 version: 1.0.0
 
+crystal: ">= 0.36.0"
 authors:
   - Alex Kampa <ak@sikoba.com>
   - Ihor Tsykalo <sarcasm008@gmail.com>
@@ -10,8 +11,7 @@ targets:
   ecdsa:
     main: src/ecdsa.cr
 
-crystal: ">= 0.36.0"
+dependencies:
 
 license: MIT
 
-dependencies:
